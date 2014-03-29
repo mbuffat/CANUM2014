@@ -1757,7 +1757,7 @@ $(document).ready(function(){
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[19]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="o">%</span><span class="k">matplotlib</span> <span class="n">inline</span>
@@ -1808,7 +1808,7 @@ WEBWORK et SAGECELL<br> des outils web 2.0 pour l’apprentissage<br> de la &quo
 <h2>
 CANUM 2014
 </h2>
-<strong>Marc BUFFAT</strong><br> <em>Dpt Mécanique, Université Claude Bernard Lyon 1</em>
+<strong><a href="http://ufrmeca.univ-lyon1.fr/~buffat">Marc BUFFAT</a></strong> @ univ-lyon1.fr<br> <em>Dpt Mécanique, Université Claude Bernard Lyon 1</em>
 </center>
 </div></section>
     </section><section>
@@ -1829,7 +1829,7 @@ CANUM 2014
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
+In&nbsp;[20]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">Image</span><span class="p">(</span><span class="n">filename</span><span class="o">=</span><span class="s">&quot;logoIpython.png&quot;</span><span class="p">))</span>
@@ -2023,7 +2023,7 @@ HMRRca/E5hVINNIVwI2B56z6/3ExLRI31pXNAAAAAElFTkSuQmCC
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[3]:
+In&nbsp;[21]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="k">with</span> <span class="n">plt</span><span class="o">.</span><span class="n">xkcd</span><span class="p">():</span>
@@ -2747,7 +2747,7 @@ iy/DMAzDSAyLL8MwDMNIDIsvwzAMw0gMiy/DMAzDSMz/A4jqrYNpockaAAAAAElFTkSuQmCC
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[4]:
+In&nbsp;[22]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;center&gt;&lt;h1&gt;Video YOUTUBE&lt;/h1&gt;&lt;/center&gt;&#39;</span><span class="p">))</span>
@@ -2797,7 +2797,7 @@ transition by-pass (Buffat et al 2013)<br>$\approx 10^{10}$ modes sur $O(10^{6})
 </div>
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[4]:</div>
+    Out[22]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
@@ -2828,7 +2828,7 @@ transition by-pass (Buffat et al 2013)<br> <span class="math">\(\approx 10^{10}\
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[5]:
+In&nbsp;[23]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;center&gt;&lt;h1&gt;Site WEB&lt;/h1&gt;&lt;/center&gt;&#39;</span><span class="p">))</span>
@@ -2856,7 +2856,7 @@ In&nbsp;[5]:
 </div>
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[5]:</div>
+    Out[23]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
@@ -2877,12 +2877,16 @@ In&nbsp;[5]:
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[6]:
+In&nbsp;[29]:
 </div>
 <div class="input_area box-flex1">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;center&gt;&lt;h1&gt;Examples&lt;/h1&gt;&lt;/center&gt;&#39;</span><span class="p">))</span>
+<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;center&gt;&lt;h1&gt;Partage&lt;/h1&gt;&lt;/center&gt;&#39;</span><span class="p">))</span>
+<span class="n">url2</span><span class="o">=</span><span class="s">&quot;http://ufrmeca.univ-lyon1.fr/~buffat/CANUM2014&quot;</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;a href=&quot;</span><span class="si">%s</span><span class="s">&quot;&gt;&lt;h3&gt;</span><span class="si">%s</span><span class="s">&lt;/h3&gt;&lt;/a&gt;&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">url2</span><span class="p">,</span><span class="n">url2</span><span class="p">)))</span>
+<span class="n">url1</span><span class="o">=</span><span class="s">&quot;http://nbviewer.ipython.org/url/ufrmeca.univ-lyon1.fr/~buffat/CANUM2014/CANUM2014.ipynb&quot;</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;a href=&quot;</span><span class="si">%s</span><span class="s">&quot;&gt;&lt;h3&gt;</span><span class="si">%s</span><span class="s">&lt;/h3&gt;&lt;/a&gt;&#39;</span><span class="o">%</span><span class="p">(</span><span class="n">url1</span><span class="p">,</span><span class="n">url1</span><span class="p">)))</span>
 <span class="n">url</span><span class="o">=</span><span class="s">&#39;http://nbviewer.ipython.org/&#39;</span>
-<span class="n">website</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s">&quot;IPython Notebook Viewer&quot;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span><span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
+<span class="n">website</span><span class="p">(</span><span class="n">url</span><span class="p">,</span><span class="n">name</span><span class="o">=</span><span class="s">&quot;Notebook nbviewer&quot;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mi">800</span><span class="p">,</span><span class="n">height</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -2898,19 +2902,39 @@ In&nbsp;[6]:
 <div class="box-flex1 output_subarea output_display_data">
 
 <div class="output_html rendered_html">
-<center><h1>Examples</h1></center>
+<center><h1>Partage</h1></center>
+</div>
+
+</div>
+</div>
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+<div class="output_html rendered_html">
+<a href="http://ufrmeca.univ-lyon1.fr/~buffat/CANUM2014"><h3>http://ufrmeca.univ-lyon1.fr/~buffat/CANUM2014</h3></a>
+</div>
+
+</div>
+</div>
+
+<div class="hbox output_area"><div class="prompt"></div>
+<div class="box-flex1 output_subarea output_display_data">
+
+<div class="output_html rendered_html">
+<a href="http://nbviewer.ipython.org/url/ufrmeca.univ-lyon1.fr/~buffat/CANUM2014/CANUM2014.ipynb"><h3>http://nbviewer.ipython.org/url/ufrmeca.univ-lyon1.fr/~buffat/CANUM2014/CANUM2014.ipynb</h3></a>
 </div>
 
 </div>
 </div>
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[6]:</div>
+    Out[29]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
 <h2><div sytle="margin-bottom:10px">
-<a href="http://nbviewer.ipython.org/">IPython Notebook Viewer</a>
+<a href="http://nbviewer.ipython.org/">Notebook nbviewer</a>
 </div></h2>
 <iframe src="http://nbviewer.ipython.org/"  width="800" height="400"></iframe>
 </div>
@@ -3087,7 +3111,7 @@ In&nbsp;[6]:
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[7]:
+In&nbsp;[25]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://inpros.univ-lyon1.fr&#39;</span>
@@ -3104,7 +3128,7 @@ In&nbsp;[7]:
 
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[7]:</div>
+    Out[25]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 <div class="output_html rendered_html">
@@ -3170,7 +3194,7 @@ In&nbsp;[7]:
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[8]:
+In&nbsp;[26]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre><span class="n">R</span><span class="o">=</span><span class="mf">7.</span><span class="p">;</span> <span class="n">r</span><span class="o">=</span><span class="mi">4</span><span class="p">;</span> <span class="n">d</span><span class="o">=</span><span class="mi">6</span><span class="p">;</span> <span class="n">t</span><span class="o">=</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">8</span><span class="o">*</span><span class="n">pi</span><span class="p">,</span><span class="mi">200</span><span class="p">)</span>
@@ -3193,12 +3217,12 @@ In&nbsp;[8]:
 
 
 <div class="hbox output_area"><div class="prompt output_prompt">
-    Out[8]:</div>
+    Out[26]:</div>
 <div class="box-flex1 output_subarea output_pyout">
 
 
 <pre>
-&lt;matplotlib.text.Text at 0x33ef850&gt;
+&lt;matplotlib.text.Text at 0x37e0050&gt;
 </pre>
 
 </div>
@@ -3700,7 +3724,7 @@ P1bDJ91HR48yAAAAAElFTkSuQmCC
 <div class="input_hidden">
 <div class="input hbox">
 <div class="prompt input_prompt">
-In&nbsp;[8]:
+In&nbsp;[26]:
 </div>
 <div class="input_area box-flex1">
 <div class="highlight"><pre>
