@@ -1,0 +1,2 @@
+#! /bin/bash
+ipython nbconvert --to=latex --template=toc_latex  --SphinxTransformer.overridetitle="XXX" --SphinxTransformer.author='Marc BUFFAT' --post PDF XXX.ipynb

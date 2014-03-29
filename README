@@ -1,0 +1,8 @@
+# liste des profiles
+ipython profile list
+# creation
+ipython profile create nom
+# gestion
+ mkvirtualenv ipython2
+ workon ipython2
+ deactivate

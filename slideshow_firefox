@@ -1,0 +1,7 @@
+#!/bin/bash
+# attention lancer le navigateur avant
+# firefox &
+export BROWSER="fiefox"
+#ipython nbconvert CANUM2014.ipynb --to=slides --template output_toggle --post serve --profile=slideshow --config slides_config.py
+ipython nbconvert CANUM2014.ipynb --to=slides --template output_toggle --post serve --profile=slideshow
+
