@@ -29,7 +29,7 @@ margin-bottom:1em;
 }
 
 div.text_cell_render h1 { /* Main titles bigger, centered */
-font-size: 2.0em;
+font-size: 1.6em;
 line-height:1.2em;
 text-align:center;
 }
@@ -41,7 +41,12 @@ color: #3465a4;
 .rendered_html pre {
   margin: 0;
 }
-
+.rendered_html h1 {
+ font-weight: normal;
+}
+.rendered_html h2 {
+ font-weight: normal;
+}
 div.text_cell_render { /* Customize text cells */
 /*font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;*/
 /*font-family: "Charis SIL", serif;  */

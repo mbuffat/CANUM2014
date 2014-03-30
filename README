@@ -6,6 +6,8 @@ ipython profile create nom
  mkvirtualenv ipython2
  workon ipython2
  deactivate
+# attention bug avec chromium sans reseau
+# sur tablette enlever coloration syntaxique
 # git
 #sur le serveur
 # ============
