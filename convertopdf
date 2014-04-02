@@ -1,5 +1,5 @@
 #! /bin/bash
 WS="CANUM2014.ipynb"
-TITLE="CANUM2014"
-AUTEUR="Marc BUFFAT"
-ipython nbconvert --to=latex --SphinxTransformer.overridetitle=$TITLE --SphinxTransformer.author=$AUTEUR --post PDF $WS 
+TITLE="Webwork et SageCell: outils WEB 2.0 pour l'apprentissage de la programmation scientifique"
+AUTEUR='BUFFAT Marc'
+ipython nbconvert --to=latex --template=toc_latex --SphinxTransformer.overridetitle="$TITLE" --SphinxTransformer.author="$AUTEUR" --post PDF $WS
