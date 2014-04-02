@@ -1,5 +1,6 @@
-#!/bin/bash
+#! /bin/bash
 # attention lancer le navigateur avant
 # chromium-browser &
 #export BROWSER="chromium-browser"
+#workon ipython2
 ipython nbconvert CANUM2014.ipynb --to=slides --template output_toggle --post serve --profile=slideshow
