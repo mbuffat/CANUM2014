@@ -1,4 +1,7 @@
-**Conférence CANUL 2014 Congrès français d'analyse numérique Carie-Le Rouet Avril 2014**
+# Conférence CANUL 2014 Congrès français d'analyse numérique Carie-Le Rouet Avril 2014
+
+## Webwork et SageCell: outils WEB 2.0
+## pour l’apprentissage de la programmation scientifique
 
 Notebook IPython
 -------------
