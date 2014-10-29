@@ -1,1 +1,0 @@
-(ipython nbconvert --to=latex --template=latex_report --post=pdf XXX.ipynb)
